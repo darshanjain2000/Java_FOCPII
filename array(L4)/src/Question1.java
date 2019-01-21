@@ -23,7 +23,7 @@ class Question1
 			    	System.out.print("Enter element of row "+(i+1)+" and column "+(j+1)+": ");
 			        num = input.nextInt();
 
-			        if(num >= (-99) || num <= 99)
+			        if(num >= (-99) && num <= 99)
 			        {
 			        	array[i][j] = num;
 			        }

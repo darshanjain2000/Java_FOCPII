@@ -26,14 +26,14 @@ class Student
 	}
 
 	
-	Student(String firstName,String lastName,Address addr,String dob,String skills,Qualification qual,String eMail,String contactNo)
+	Student(String firstName,String lastName,Address addr,String dob,String[] skills,Qualification[] qual,String eMail,String contactNo)
 	{
 		this.firstName =firstName;
 		this.lastName =lastName;
 		this.addr =addr;
 		this.dob =dob;
-		//this.skills[] =skills[];
-		//this.qual[]=qual[];
+		this.skills =skills;
+		this.qual=qual;
 		this.eMail=eMail;
 		this.contactNo=contactNo;
 	}
@@ -51,10 +51,10 @@ class Student
 		a1.display();
 
 		Qualification q1=new Qualification();
-		for(i=0;i<5;i++)
+		for(i=0;i<qual.length;i++)
 		q1.display();
 
-		for(i=0;i<5;i++)//skills
+		for(i=0;i<skills.length;i++)//skills
       	System.out.println(skills[i]);
 
 		Project p1=new Project();

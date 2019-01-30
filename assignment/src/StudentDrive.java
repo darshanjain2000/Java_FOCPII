@@ -1,5 +1,5 @@
 import java.util.*;
-class StudentDriver
+class StudentDrive
 {
 
   public static void main(String[] args) 
@@ -18,15 +18,18 @@ class StudentDriver
     System.out.println("Date of birth :");
     String dob = in.nextLine();
 
+    //skills
     System.out.println("enter the no. of skills: ");
     int x =in.nextInt();
     String skills[] = new String[x];
 
     for(i=0;i<x;i++)
     {
+      System.out.println("Enter the skills; ")
       skills[i] = in.nextLine();
     } 
 
+    //address
     System.out.println("Adress line1 :");
     String line1 = in.nextLine();
                  
@@ -42,6 +45,8 @@ class StudentDriver
     System.out.println("pinCode : ");
     int pinCode = in.nextInt();
 
+    Address addr= new Address(line1,line2,city,state,pinCode);
+    //qualification
     System.out.println("Enter the no. of Qualifications");
     int y = in.nextInt();
     Qualification q[] = new Qualification[y];
@@ -60,8 +65,10 @@ class StudentDriver
       System.out.println("Qualification - cgpa :");
       float cgpa = in.nextFloat();
 
-      q[i] = new Qualification();
+      q[i] = new Qualification(qualName,university,institute,cgpa);
     }
+
+    //project
     int l = in.nextInt();
     Project p[] = new Project[l];
 
@@ -91,6 +98,7 @@ class StudentDriver
         resposibilities[i] = in.nextLine();
       }
     }
+    Project 
 
     Student s1 =new Student();
 

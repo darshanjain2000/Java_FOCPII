@@ -1,0 +1,3 @@
+Java Scanner class comes under the java.util package. Java has various ways to read input from the keyboard, the java.util.Scanner class is one of them.
+ Java Scanner class breaks the input into tokens using a delimiter that is whitespace by default. It provides many methods to read and parse various primitive values.
+ Scanner class is widely used to parse text for string and primitive types using a regular expression.

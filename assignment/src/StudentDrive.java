@@ -23,9 +23,9 @@ class StudentDrive
     int x =in.nextInt();
     String skills[] = new String[x];
 
-    for(i=0;i<x;i++)
+    for(i=1;i<=x;i++)
     {
-      System.out.println("Enter the skills; ")
+      System.out.println("Enter the skill "+i);
       skills[i] = in.nextLine();
     } 
 
@@ -98,8 +98,6 @@ class StudentDrive
         resposibilities[i] = in.nextLine();
       }
     }
-    Project 
-
     Student s1 =new Student();
 
     s1.display();

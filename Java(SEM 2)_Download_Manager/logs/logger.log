@@ -1,0 +1,35 @@
+2019-02-18 14:46:30 INFO  Driver:26 - 
+ Please copy the link:
+
+2019-02-18 14:46:52 INFO  Driver:28 - 
+ Please enter outputDirectory: 
+
+2019-02-18 14:54:25 INFO  Driver:26 - 
+ Please copy the link:
+
+2019-02-18 14:55:14 INFO  Driver:28 - 
+ Please enter outputDirectory: 
+
+2019-02-18 15:01:23 INFO  Driver:26 - 
+ Please copy the link:
+
+2019-02-18 15:01:25 INFO  Driver:28 - 
+ Please enter outputDirectory: 
+
+2019-02-18 15:01:34 ERROR Validator:56 - 
+
+com.ncu.exceptions.UrlException: "Url is not correct , Please enter a correct url"
+
+2019-02-18 15:01:34 ERROR Validator:56 - 
+
+com.ncu.exceptions.UrlException: "Url is not correct , Please enter a correct url"
+
+2019-02-18 15:01:34 INFO  Driver:33 - Please enter correct details
+2019-02-18 15:01:34 INFO  Driver:34 - Please enter the correct link
+2019-02-18 15:02:07 INFO  Driver:36 - Please enter outputDirectory
+2019-02-18 15:02:35 INFO  Driver:26 - 
+ Please copy the link:
+
+2019-02-18 15:02:36 INFO  Driver:28 - 
+ Please enter outputDirectory: 
+
